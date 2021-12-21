@@ -1,7 +1,8 @@
 ---
+title: Foo
 group:
-  title: Foo组件
-  path: /zh-CN/components/foo
+  title: 通用
+  path: /zh-CN/components/base
 toc: content
 ---
 

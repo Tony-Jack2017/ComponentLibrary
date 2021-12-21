@@ -1,7 +1,8 @@
 ---
+title: Button
 group:
-  title: Button
-  path: /components/button
+  title: Base
+  path: /components/base
 toc: content
 ---
 

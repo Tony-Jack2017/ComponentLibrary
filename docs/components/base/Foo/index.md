@@ -1,7 +1,8 @@
 ---
+title: Foo
 group:
-  title: Foo
-  path: /components/foo
+  title: Base
+  path: /components/base
 toc: content
 ---
 

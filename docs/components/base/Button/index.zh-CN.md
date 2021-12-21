@@ -1,7 +1,8 @@
 ---
+title: 按钮
 group:
-  title: 按钮
-  path: /zh-CN/components/button
+  title: 通用
+  path: /zh-CN/components/base
 toc: content
 ---
 
