@@ -33,7 +33,7 @@ const InteralButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (
   const classes = classNames(
     'tc-btn',
     {
-      [`tc-btn-${size}`]: size !== 'primary' && size,
+      [`tc-btn-size-${size}`]: size !== 'primary' && size,
       [`tc-btn-type-${type}`]: type !== 'primary' && type,
     },
     'btn',
