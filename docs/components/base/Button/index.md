@@ -6,7 +6,7 @@ group:
 toc: content
 ---
 
-## Foo
+## base use
 
 Demo:
 
@@ -14,7 +14,7 @@ Demo:
 import React from 'react';
 import { Button } from 'dumi-template';
 
-export default () => <Button size="12312222" />;
+export default () => <Button>Click Me</Button>;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/demo-principle
