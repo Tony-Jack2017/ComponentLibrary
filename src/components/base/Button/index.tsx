@@ -5,7 +5,8 @@ import classNames from 'classnames';
 // 基础按钮属性
 export interface BaseButtonProps {
   background: string;
-  type: 'primary' | 'plain';
+  shape: 'round';
+  type: 'default' | 'plain' | 'dashed';
   size: 'mini' | 'small' | 'primary' | 'medium' | 'large';
 }
 
@@ -22,8 +23,9 @@ const InteralButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (
   ref,
 ) => {
   const {
-    type = 'primary',
+    type = 'default',
     size = 'primary',
+    shape = 'default',
     background,
 
     //React独有的
@@ -34,7 +36,8 @@ const InteralButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (
     'tc-btn',
     {
       [`tc-btn-size-${size}`]: size !== 'primary' && size,
-      [`tc-btn-type-${type}`]: type !== 'primary' && type,
+      [`tc-btn-type-${type}`]: type !== 'default' && type,
+      [`tc-btn-shape-${shape}`]: shape !== 'default' && shape,
     },
     'btn',
   );

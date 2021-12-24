@@ -6,9 +6,7 @@ group:
 toc: content
 ---
 
-## base use
-
-Demo:
+## Button Type
 
 ```tsx
 import React, { Fragment } from 'react';
@@ -16,7 +14,51 @@ import { Button } from 'dumi-template';
 
 export default () => (
   <Fragment>
-    <Button size="mini">
+    <Button type="default">
+      <span>Click Me</span>
+    </Button>
+    <div style={{ display: 'inline', width: 0, margin: '0px 6px' }}></div>
+    <Button type="plain">
+      <span>Click Me</span>
+    </Button>
+    <div style={{ display: 'inline', width: 0, margin: '0px 6px' }}></div>
+    <Button type="dashed">
+      <span>Click Me</span>
+    </Button>
+  </Fragment>
+);
+```
+
+## Button Shape
+
+```tsx
+import React, { Fragment } from 'react';
+import { Button } from 'dumi-template';
+
+export default () => (
+  <Fragment>
+    <Button>
+      <span>Click Me</span>
+    </Button>
+    <div style={{ display: 'inline', width: 0, margin: '0px 6px' }}></div>
+    <Button shape="round">
+      <span>Click Me</span>
+    </Button>
+  </Fragment>
+);
+```
+
+## Button Size
+
+Button size:
+
+```tsx
+import React, { Fragment } from 'react';
+import { Button } from 'dumi-template';
+
+export default () => (
+  <Fragment>
+    <Button size="mini" style={{ background: 'red' }}>
       <span>Click Me</span>
     </Button>
     <div style={{ display: 'inline', width: 0, margin: '0px 6px' }}></div>

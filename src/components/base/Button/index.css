@@ -1,0 +1,59 @@
+.tc-btn {
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 6px 12px;
+  border: 1px solid rgba(24, 144, 255, 1);
+  background: rgba(24, 144, 255, 1);
+}
+
+.tc-btn:active {
+  /*background: rgba(9, 114, 217, 1);*/
+  background: #096dd9;
+}
+
+/* button type*/
+.tc-btn-type-dashed {
+  color: rgba(24, 144, 255, .8);
+  border: 1px dashed rgba(24, 144, 255, 0.3);
+  background: transparent;
+}
+.tc-btn-type-dashed:hover {
+  border: 1px dashed rgba(24, 144, 255,  1);
+}
+.tc-btn-type-dashed:active {
+  color: rgba(24, 144, 255, 1);
+  border: 1px dashed rgba(24, 144, 255,  1);
+  background: transparent;
+}
+.tc-btn-type-plain {
+  color: rgba(24, 144, 255, .9);
+  border: 1px solid rgba(24, 144, 255, .5);
+  background: transparent;
+}
+.tc-btn-type-plain:active {
+  color: rgba(24, 144, 255, 1);
+  border: 1px solid rgba(24, 144, 255,  1);
+  background: transparent;
+}
+
+/* button shape*/
+.tc-btn-shape-round {
+  border-radius: 20px;
+}
+
+
+/* button size */
+.tc-btn-size-mini {
+  padding: 3px 8px;
+}
+.tc-btn-size-small {
+  padding: 5px 10px;
+}
+.tc-btn-size-medium {
+  padding: 8px 14px;
+}
+.tc-btn-size-large {
+  padding: 10px 16px;
+}
+
+
