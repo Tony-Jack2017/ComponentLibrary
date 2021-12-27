@@ -26,8 +26,6 @@ const InteralButton: React.ForwardRefRenderFunction<unknown, ButtonProps> = (
     type = 'default',
     size = 'primary',
     shape = 'default',
-    background,
-
     //React独有的
     children,
   } = props;
