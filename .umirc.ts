@@ -18,7 +18,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi-template',
+      path: 'https://github.com/Tony-Jack2017/TC_MobileAdmin',
     },
   ],
   // more config: https://d.umijs.org/config

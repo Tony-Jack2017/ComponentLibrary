@@ -1,0 +1,12 @@
+.tc-tag {
+  background-color: #1890ff;
+  padding: 2px 6px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.tc-tag-translucence {
+  color: #096dd9;
+  border: 1px solid #91d5ff;
+  background-color: #e6f7ff;
+}
