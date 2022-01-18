@@ -1,0 +1,20 @@
+.progress-bar-container {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+}
+.progress-bar-groove {
+  //width: 40%;
+  flex: 1;
+  height: 8px;
+  border-radius: 8px;
+  background: #b6bfc5;
+  .progress-bar {
+    border-radius: 8px;
+    background: #096dd9;
+  }
+}
+.progress-bar-round {
+  
+}
