@@ -1,9 +1,9 @@
 ---
-title: dumi - A doc tool can assist you to develop libraries & write docs.
+title: Apis - Tony-Jack2017's components library.
 order: 10
 hero:
-  title: dumi
-  desc: 📖 A doc tool can assist you to develop libraries & write docs.
+  title: Apis
+  desc: 📖 Tony-Jack2017's components library.
   actions:
     - text: Getting Started
       link: /components

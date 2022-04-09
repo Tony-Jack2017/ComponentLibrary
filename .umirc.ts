@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = 'Apis';
 
 export default defineConfig({
   title: repo,
@@ -18,7 +18,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/Tony-Jack2017/TC_MobileAdmin',
+      path: 'https://github.com/Tony-Jack2017/ComponentLibrary',
     },
   ],
   sass: {
@@ -27,5 +27,25 @@ export default defineConfig({
     // 传递给 Dart Sass 或 Node Sass 的配置项，可以是一个 Function
     sassOptions: {},
   },
+  lessLoader: {
+    test: /\.less$/i,
+    use: [
+      {
+        loader: 'style-loader',
+      },
+      {
+        loader: 'css-loader',
+      },
+      {
+        loader: 'less-loader',
+        options: {
+          lessOptions: {
+            strictMath: true,
+          },
+        },
+      },
+    ],
+  },
+
   // more config: https://d.umijs.org/config
 });
